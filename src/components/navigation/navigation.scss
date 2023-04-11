@@ -1,0 +1,39 @@
+@import 'bootstrap/dist/css/bootstrap.css';
+@import 'src/assets/scss/_fontProximaNova.scss';
+
+.navigation{
+  width: 267px;
+  background: linear-gradient(180deg, #54D3C2 0%, #30898A 100%);
+  border-radius: 56px 56px 0 56px;
+  padding: 55px 32px 0;
+  bottom: 0;
+  top: 0;
+  height: auto;
+  position: absolute;
+
+  &__links-column{
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+  }
+
+  &__icons-column{
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+    padding: 0 12px;
+    width: 42px;
+    align-items: center;
+  }
+
+  &__active-link{
+    width: 64px;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    background: rgba(169, 233, 224, 0.75);
+    border-radius: 16px;
+  }
+}

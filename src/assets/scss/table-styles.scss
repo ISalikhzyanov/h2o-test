@@ -1,0 +1,120 @@
+.employee-table{
+  margin-top: 41px;
+  background-color: #FFFFFF;
+  border-radius: 32px;
+  &__loader{
+    margin-top: 41px;
+  }
+  &__table{
+    overflow-x: auto;
+    overflow-y: auto;
+    background-color: #FFFFFF;
+    border-radius: 32px 32px 0 0;
+    display: flex;
+    max-width: 1500px;
+    max-height: 500px;
+  }
+    &__sort-column{
+      display: flex;
+      flex-direction: row;
+      position: relative;
+      justify-content: center;
+    }
+
+  &__sort-btns{
+    position: absolute;
+    right: 3px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+  }
+
+  &__sort-btn{
+    cursor: pointer;
+  }
+}
+
+thead{
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 120%;
+  color: #54D3C2;
+}
+
+th {
+  border-bottom: 1.5px solid #F8F8F8 !important;
+  border-right: 1.5px solid #F8F8F8 !important;
+  padding: 2px 4px;
+  text-align: center !important;
+  height: 33px;
+}
+
+tbody{
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 44px;
+  letter-spacing: -0.56px;
+  color: #6D7986;
+}
+td{
+  border-right: 1.5px solid #F8F8F8 !important;
+  border-bottom: 1.5px solid #F8F8F8 !important;
+  text-align: center !important;
+
+}
+input{
+  border: none;
+  background-color: transparent;
+  overflow: hidden !important;
+  width: 100%;
+  text-align: center !important;
+}
+
+.pagination{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 44px;
+  letter-spacing: -0.56px;
+  color: #6D7986;
+  &__info{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 44px;
+    letter-spacing: -0.56px;
+    color: #6D7986;
+  }
+  &__btns{
+    border: none !important;
+    background-color: transparent;
+  }
+  &__row{
+    display: flex;
+    column-gap: 19px;
+    margin: 0 39px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.22px;
+  }
+  &__page{
+    color: #323F47;
+    cursor: pointer;
+  }
+  &__active-page{
+    color: #54D3C2;
+    cursor: default;
+  }
+
+}
+
+.table-actions{
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 36px;
+}

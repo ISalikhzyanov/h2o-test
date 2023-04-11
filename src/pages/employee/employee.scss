@@ -1,0 +1,69 @@
+.employee{
+  background: #F8F8F8;
+  border-radius: 56px;
+  height: 100%;
+  min-height: 80vh;
+  padding: 27px 42px;
+  width: 100%;
+
+  h2{
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 44px;
+    letter-spacing: -0.56px;
+    color: #323F47;
+  }
+
+  &__form{
+    margin-top: 13px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background: rgb(255, 255, 255, 0.35);
+    border-radius: 32px;
+    padding: 38px 35px 41px 34px;
+  }
+
+  &__contacts{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 39px;
+  }
+
+  &__info{
+    display: flex;
+    flex-direction: row;
+    column-gap: 14px;
+    align-items: center;
+
+    &__number{
+      font-weight: 600;
+      font-size: 28px;
+      line-height: 44px;
+      letter-spacing: -0.56px;
+      color: #54D3C2;
+    }
+
+    &__text{
+      font-weight: 600;
+      font-size: 12px;
+      line-height: 44px;
+      letter-spacing: -0.56px;
+      color: #6D7986;
+    }
+  }
+
+  &__button{
+    border: 1.5px solid #54D3C2;
+    border-radius: 24px;
+    padding: 15px 16px;
+    background-color: transparent;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: -0.56px;
+    color: #54D3C2;
+  }
+}

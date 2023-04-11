@@ -1,0 +1,5 @@
+export const SHOW_LOADER = 'SHOW_LOADER'
+export const HIDE_LOADER = 'HIDE_LOADER'
+export const FETCH_TABLE_DATA = 'FETCH_TABLE_DATA'
+export const IS_EDIT = 'IS_EDIT'
+export const CHANGE_TYPE = 'CHANGE_TYPE'

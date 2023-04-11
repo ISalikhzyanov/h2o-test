@@ -1,0 +1,51 @@
+.tabbar{
+  display: flex;
+  flex-direction: row;
+  height: 154px;
+  width: 100%;
+  justify-content: space-between;
+  padding: 0 20px;
+  margin-bottom: 57px;
+
+  &__user-block{
+    padding-top: 49px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 20px;
+    max-width: 361px;
+    min-width: 280px;
+  }
+
+  &__user-info{
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__user-name{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.44px;
+    color: #323F47;
+  }
+
+  &__user-post{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.15px;
+    color: #989FA3;
+  }
+
+  &__user-menu{
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+  }
+}
